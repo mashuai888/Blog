@@ -66,29 +66,40 @@ border-radius: 100px 100px 100px 100px/50px 50px 50px 50px;
 #### 简单练习
 
 * 这是啥图形之我也不知道叫啥
+
 ![练习题一图](./img/img02.png)
 
 代码如下：
+
 ```
 border-radius: 100% 50%/0 100%;
 ```
+
 * 一片叶子
 
 ![练习题二图](./img/img03.png)
+
 代码如下：
+
 ```
 border-radius: 0 100%/0 100%;
 ```
+
 * 倾斜的椭圆
 
 ![练习题三图](./img/img05.png)
 
+代码如下：
+
 ```
 border-radius: 100% 50%/100% 50%;
 ```
+
 * 扭曲的相框
 
 ![练习题四图](./img/img04.png)
+
+代码如下：
 
 ```
 border-radius: 150px 400px 150px 400px/400px 150px 400px 150px;
@@ -98,24 +109,32 @@ border-radius: 150px 400px 150px 400px/400px 150px 400px 150px;
 
 * 
 ![酷炫按钮练习题一图](./img/button01.png)
+
 代码如下（包含渐变和阴影）：
+
 ```
 background: linear-gradient(to bottom,#FBBCD0,#FBAAC3);
 box-shadow: 0 10px 10px #B9174C;
 border-radius: 150px 14px/150px 14px;
 ```
+
 *
 ![酷炫按钮练习题二图](./img/button04.png)
+
 代码如下（包含渐变和阴影）：
+
 ```
 background: linear-gradient(to bottom,#E8F6D9,#BEE595);
 box-shadow: 0 10px 10px #4F821D;
 border-radius: 50px/100px;
 ```
+
 *
 
 ![酷炫按钮练习题三图](./img/button03.png)
+
 代码如下（包含渐变和阴影）：
+
 ```
 background: linear-gradient(to bottom,#D7EAFD,#A3C7E8);
 box-shadow: 0 10px 10px #4179AB;
@@ -125,7 +144,9 @@ border-radius: 50px 50px 20px 20px/200px 200px 20px 20px;
 *
 
 ![酷炫按钮练习题四图](./img/button02.png)
+
 代码如下（包含渐变和阴影）：
+
 ```
 background: linear-gradient(to bottom,#FDE0AF,#E4B260);
 border-radius: 15px 15px 50% 50%/15px 15px 100% 100%;
@@ -144,6 +165,7 @@ box-shadow: 0 10px 10px #986206;
 ![梯形](./img/img06.png)
 
 这里只附上代码，对DIV模拟梯形感兴趣并且不清楚怎么实现的朋友可以参考一下，若您都会，请跳过
+
 ```
 height: 0;
 width: 400px;

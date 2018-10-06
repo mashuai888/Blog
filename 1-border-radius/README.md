@@ -10,23 +10,23 @@
 
 ![效果一](./img/img01.png)
 
-![效果二](https://user-gold-cdn.xitu.io/2018/10/6/1664764571960ee8?w=153&h=80&f=png&s=1244)
+![效果二](./img/img02.png)
 
-![效果三](https://user-gold-cdn.xitu.io/2018/10/6/16647646679b1de3?w=163&h=81&f=png&s=1971)
+![效果三](./img/img03.png)
 
-![效果四](https://user-gold-cdn.xitu.io/2018/10/6/1664764e0242d164?w=184&h=180&f=png&s=3645)
+![效果四](./img/img04.png)
 
-![效果五](https://user-gold-cdn.xitu.io/2018/10/6/1664764f7ba156a8?w=153&h=148&f=png&s=2751)
+![效果五](./img/img05.png)
 
 来几个酷炫的按钮（大图预警）：
 
-![按钮一](https://user-gold-cdn.xitu.io/2018/10/6/166476647285452f?w=428&h=184&f=png&s=13126)
+![按钮一](./img/button01.png)
 
-![按钮二](https://user-gold-cdn.xitu.io/2018/10/6/166476676ca514ff?w=431&h=229&f=png&s=9711)
+![按钮二](./img/button04.png)
 
-![按钮三](https://user-gold-cdn.xitu.io/2018/10/6/1664766917c41f07?w=240&h=236&f=png&s=8573)
+![按钮三](./img/button03.png)
 
-![按钮四](https://user-gold-cdn.xitu.io/2018/10/6/16647669eb2c056d?w=228&h=226&f=png&s=13758)
+![按钮四](./img/button02.png)
 
 这四个按钮不仅用了border-radius还用了box-shadow和linear-gradient
 
@@ -45,7 +45,7 @@ border-radius: 10px 20px 30px 40px/40px 30px 20px 10px;
 以下图为例
 
 
-![例图](https://user-gold-cdn.xitu.io/2018/10/6/1664774bc393002e?w=295&h=146&f=png&s=3003)
+![例图](./img/img01.png)
 
 代码如下
 ```
@@ -66,7 +66,7 @@ border-radius: 100px 100px 100px 100px/50px 50px 50px 50px;
 #### 简单练习
 
 * 这是啥图形之我也不知道叫啥
-![练习题一图](https://user-gold-cdn.xitu.io/2018/10/6/166484d86a614cf7?w=153&h=80&f=png&s=1244)
+![练习题一图](./img/img02.png)
 
 代码如下：
 ```
@@ -74,21 +74,21 @@ border-radius: 100% 50%/0 100%;
 ```
 * 一片叶子
 
-![练习题二图](https://user-gold-cdn.xitu.io/2018/10/6/166484fc322a989f?w=163&h=81&f=png&s=1971)
+![练习题二图](./img/img03.png)
 代码如下：
 ```
 border-radius: 0 100%/0 100%;
 ```
 * 倾斜的椭圆
 
-![练习题三图](https://user-gold-cdn.xitu.io/2018/10/6/1664851b5aec3fe3?w=153&h=148&f=png&s=2751)
+![练习题三图](./img/img05.png)
 
 ```
 border-radius: 100% 50%/100% 50%;
 ```
 * 扭曲的相框
 
-![练习题四图](https://user-gold-cdn.xitu.io/2018/10/6/1664852bcc2fede9?w=184&h=180&f=png&s=3645)
+![练习题四图](./img/img04.png)
 
 ```
 border-radius: 150px 400px 150px 400px/400px 150px 400px 150px;
@@ -97,7 +97,7 @@ border-radius: 150px 400px 150px 400px/400px 150px 400px 150px;
 #### 酷炫按钮练习
 
 * 
-![酷炫按钮练习题一图](https://user-gold-cdn.xitu.io/2018/10/6/16648569a2ec1bdd?w=428&h=184&f=png&s=13126)
+![酷炫按钮练习题一图](./img/button01.png)
 代码如下（包含渐变和阴影）：
 ```
 background: linear-gradient(to bottom,#FBBCD0,#FBAAC3);
@@ -105,7 +105,7 @@ box-shadow: 0 10px 10px #B9174C;
 border-radius: 150px 14px/150px 14px;
 ```
 *
-![酷炫按钮练习题二图](https://user-gold-cdn.xitu.io/2018/10/6/16648591f35046e9?w=431&h=229&f=png&s=9711)
+![酷炫按钮练习题二图](./img/button04.png)
 代码如下（包含渐变和阴影）：
 ```
 background: linear-gradient(to bottom,#E8F6D9,#BEE595);
@@ -114,7 +114,7 @@ border-radius: 50px/100px;
 ```
 *
 
-![酷炫按钮练习题三图](https://user-gold-cdn.xitu.io/2018/10/6/166485a1406b22a0?w=240&h=236&f=png&s=8573)
+![酷炫按钮练习题三图](./img/button03.png)
 代码如下（包含渐变和阴影）：
 ```
 background: linear-gradient(to bottom,#D7EAFD,#A3C7E8);
@@ -124,7 +124,7 @@ border-radius: 50px 50px 20px 20px/200px 200px 20px 20px;
 
 *
 
-![酷炫按钮练习题四图](https://user-gold-cdn.xitu.io/2018/10/6/166485b0653935da?w=228&h=226&f=png&s=13758)
+![酷炫按钮练习题四图](./img/button02.png)
 代码如下（包含渐变和阴影）：
 ```
 background: linear-gradient(to bottom,#FDE0AF,#E4B260);
@@ -141,7 +141,7 @@ box-shadow: 0 10px 10px #986206;
 在研究border-radius的时候竟然收获到了如何用 DIV 来模拟梯形，学习处处有惊喜！
 
 
-![梯形](https://user-gold-cdn.xitu.io/2018/10/6/166486d080d13f7a?w=213&h=78&f=png&s=936)
+![梯形](./img/img06.png)
 
 这里只附上代码，对DIV模拟梯形感兴趣并且不清楚怎么实现的朋友可以参考一下，若您都会，请跳过
 ```
@@ -158,7 +158,7 @@ border-right: 100px solid transparent;
 
 #### 题外话
 
-这是我在掘金上的第一篇博客。可能有很多不当之处，欢迎大家批评指教。我昨晚在研究
+这是我在github上的第一篇博客。也发布在了[掘金](https://juejin.im/post/5bb815056fb9a05d171d5660)上。可能有很多不当之处，欢迎大家批评指教。我昨晚在研究
 border-radius 和写这篇博客时参考了部分其他人的博客，但是他们的博客都不是原文出处，应该是转发他人的，而且还没有附上原文出处链接。所以我在这里就不附上这些链接了。
 
 虽然参考了他人的文章，但这篇博文的确是我一字一字手打的，没有任何粘贴复制。而且上面的原理图之类的都是我自己重新绘制的，保证原图出处在这。练习中酷酷的按钮都是我在网络上找的按钮图然后自己用圆角、阴影、渐变一点一点制作出来的。

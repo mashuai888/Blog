@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>border-radius研究</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            margin: 30px auto;
+            width: 400px;
+            height: 200px;
+        }
+        .box1 {
+            background: lightgreen;
+            /* border-radius: 100px/50px; */
+            border-radius: 100px 100px 100px 100px/50px 50px 50px 50px;
+        }
+        .box2 {
+            height: 0;
+            width: 400px;
+            border-bottom: 200px solid lightgreen;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+			/* 
+				实现梯形实际是相当于在实现三角形的基础上(width=0)更改width。
+				这里实现的是等腰梯形。若想实现非等腰梯形，可以让左右边框的宽度不相等。
+			*/
+        }
+        /* 对角圆角 */
+        .box3{
+            background: lightblue;
+            border-radius: 100% 50%/0 100%;
+        }
+        /* 一片叶子 */
+        .box4{
+            background: lightgreen;
+            border-radius: 0 100%/0 100%;
+        }
+        /* 扭曲的相框 */
+        .box5{
+            height: 400px;
+            border: 50px solid #cccccc;
+            border-radius: 150px 400px 150px 400px/400px 150px 400px 150px;
+        }
+        /* 斜着的椭圆 */
+        .box6{
+            height: 400px;
+            background: lightsalmon;
+            border-radius: 100% 50%/100% 50%;
+        }
+        .box7{
+            height: 150px;
+            background: linear-gradient(to bottom,#FBBCD0,#FBAAC3);
+            font-size: 100px;
+            color: white;
+            text-align: center;
+            line-height: 150px;
+            border-radius: 150px 14px/150px 14px;
+            box-shadow: 0 10px 10px #B9174C;
+        }
+        .box8{
+            width: 200px;
+            background: linear-gradient(to bottom,#FDE0AF,#E4B260);
+            border-radius: 15px 15px 50% 50%/15px 15px 100% 100%;
+            box-shadow: 0 10px 10px #986206;
+        }
+        .box9{
+            width: 200px;
+            background: linear-gradient(to bottom,#D7EAFD,#A3C7E8);
+            box-shadow: 0 10px 10px #4179AB;
+            border-radius: 50px 50px 20px 20px/200px 200px 20px 20px;
+        }
+        .box10{
+            background: linear-gradient(to bottom,#E8F6D9,#BEE595);
+            box-shadow: 0 10px 10px #4F821D;
+            border-radius: 50px/100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+    <div class="box6"></div>
+    <div class="box7">Start</div>
+    <div class="box8"></div>
+    <div class="box9"></div>
+    <div class="box10"></div>
+
+</body>
+
+</html>

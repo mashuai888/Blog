@@ -1,3 +1,4 @@
+# 有趣的border-radius
 ## MDN上关于border-radius的介绍
 * one,two,three,or four `<length>` or `<percentage>` values. This is used to set a single radius for the coners.
 * followed optionally by "/" and one, two, three, or four `<length>` or `<percentage>` values. This is used to set an additional radius, so you can have elliptical corners.
@@ -161,7 +162,6 @@ box-shadow: 0 10px 10px #986206;
 
 在研究border-radius的时候竟然收获到了如何用 DIV 来模拟梯形，学习处处有惊喜！
 
-
 ![梯形](./img/img06.png)
 
 这里只附上代码，对DIV模拟梯形感兴趣并且不清楚怎么实现的朋友可以参考一下，若您都会，请跳过
@@ -180,7 +180,7 @@ border-right: 100px solid transparent;
 
 #### 题外话
 
-这是我在github上的第一篇博客，也发布在了[掘金](https://juejin.im/post/5bb815056fb9a05d171d5660)上。可能有很多不当之处，欢迎大家批评指教。我昨晚在研究
+这是我在GitHub上的第一篇博客，也发布在了[掘金](https://juejin.im/post/5bb815056fb9a05d171d5660)上。可能有很多不当之处，欢迎大家批评指教。我昨晚在研究
 border-radius 和写这篇博客时参考了部分其他人的博客，但是他们的博客都不是原文出处，应该是转发他人的，而且还没有附上原文出处链接。所以我在这里就不附上这些链接了。
 
 虽然参考了他人的文章，但这篇博文的确是我一字一字手打的，没有任何粘贴复制。而且上面的原理图之类的都是我自己重新绘制的，保证原图出处在这。练习中酷酷的按钮都是我在网络上找的按钮图然后自己用圆角、阴影、渐变一点一点制作出来的。
